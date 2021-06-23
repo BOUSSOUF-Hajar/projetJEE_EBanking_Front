@@ -1,0 +1,53 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.blueButton {
+  border-radius: 10px;
+  background:#ffa600;
+  border-radius: 10x;
+  color: rgb(139, 85, 23);
+  margin-right: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.blueButton:hover{
+  background:#ffc400;
+  color:rgb(95, 55, 9);
+  font-size: 20px;
+  padding: auto;
+  margin-right: 20px;
+}
+.importer {
+  color: #ffa600;
+}
+#New {
+  color: gray;
+}
+.formField {
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.content {
+  background-color: white;
+  border: 1px solid #dee2e6;
+}
+.error {
+  font-size: small;
+  color: red;
+}
+#description {
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  width: 100%;
+}
+.borderBottom {
+  border-bottom: 1px solid #dee2e6;
+}
+.fullheight {
+  height: 100%;
+}

@@ -1,0 +1,57 @@
+html,
+body,
+blockquote,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 2px;
+  padding: 2px;
+}
+.background {
+  background-image: url("../../../../assets/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-color: #f5f7fa;
+}
+
+.container {
+  padding: 2.5% 10%;
+  margin: 0 auto;
+}
+
+
+.whiteForm {
+  background-color: white;
+}
+mat-form-field {
+  width: 100%;
+  margin: 2.5%;
+}
+.envoyer{
+  padding: 2.5%;
+}
+button{
+  
+  border-radius: 10px;
+  background:#ffa600;
+  border-radius: 10x;
+  color: rgb(139, 85, 23);
+  margin-right: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+button:hover{
+  background:#ffc400;
+  color:rgb(95, 55, 9);
+  font-size: 20px;
+  padding: auto;
+  margin-right: 20px;
+}

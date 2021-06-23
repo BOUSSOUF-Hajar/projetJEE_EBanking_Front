@@ -1,0 +1,47 @@
+.sidenav-container {
+  height: 100%;
+  background-image: url("../../../assets/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+  color: #ffa600;
+   ;
+}
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+button:hover{
+  color:black;
+  background-color: #ffd17b;
+}
+.mat-toolbar.mat-primary {
+  background:#ffa600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+ul li {
+  list-style: none;
+}
+.mat-list-item{
+  border-color:rgb(95, 55, 9);
+  border-width: 2px;
+}
+.mat-list-item:hover{
+  font-size: 22px;
+  color: white;
+  background-color: #ffa600;
+}
+mat-toolbar{
+  border-bottom: rgb(156, 147, 147);
+  border: width 12px;
+}
+mat-sidenav{
+  background-color:#ffcf76 ;
+}

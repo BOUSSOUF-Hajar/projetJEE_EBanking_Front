@@ -1,0 +1,63 @@
+html,
+body,
+blockquote,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 2px;
+  padding: 2px;
+}
+.blueButton {
+  border-radius: 10px;
+  background:#ffa600;
+  border-radius: 10x;
+  color: rgb(139, 85, 23);
+  margin-right: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.blueButton:hover{
+  background:#ffc400;
+  color:rgb(95, 55, 9);
+  font-size: 20px;
+  padding: auto;
+  margin-right: 20px;
+}
+.background {
+  background-image: url("../../../../assets/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-color: #f5f7fa;
+}
+
+.container {
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 2.5%;
+  margin: 0 auto;
+}
+
+button {
+  margin-right: 3px;
+}
+.whiteForm {
+  background-color: white;
+}
+mat-form-field {
+  width: 100%;
+  margin: 2.5%;
+}
+.envoyer {
+  padding: 2.5%;
+}
+.material-icons {
+  transform: scale(8);
+}

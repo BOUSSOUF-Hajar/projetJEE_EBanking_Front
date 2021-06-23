@@ -1,0 +1,82 @@
+html,
+body,
+blockquote,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 2px;
+  padding: 2px;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+}
+.background {
+  height: 95%;
+  background-repeat: no-repeat;
+  background-image: url("../../../../assets/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-size: 30px;
+}
+mat-grid-list{
+  margin-left: 70px;
+  width: 70%;
+
+}
+.mat-raised-button {
+  border-radius: 10px;
+  background:#ffa600;
+  border-radius: 10x;
+  color: rgb(139, 85, 23);
+  margin-right: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.mat-raised-button:hover{
+  background:#ffc400;
+  color:rgb(95, 55, 9);
+  font-size: 20px;
+  padding: auto;
+  margin-right: 20px;
+}
+
+.container {
+  width: auto;
+ 
+  margin: 0 auto;
+}
+.singleAcc {
+  background-color: white;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.accountCont {
+  
+  padding: 10px 5%;
+  margin: 0 auto;
+}
+.disponible {
+  color: gray;
+}
+.blue {
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #3f51b5;
+}
+.solde {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 400;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}

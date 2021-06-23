@@ -1,0 +1,29 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span> KHASK Agency </span>
+    <div fxFlex fxLayout="row" fxLayoutAlign="center">
+      <button mat-button routerLink="/clients">
+        Clients
+      </button>
+      <button mat-button routerLink="/operators">
+        Operateurs
+      </button>
+    </div>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li>
+          <button mat-button [matMenuTriggerFor]="signOut">
+            <mat-icon>person_outline</mat-icon>
+          </button>
+          <mat-menu #signOut="matMenu">
+            <button mat-menu-item (click)="logOut()">
+              <mat-icon>exit_to_app</mat-icon>
+              Se déconnecter
+            </button>
+          </mat-menu>
+        </li>
+        
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

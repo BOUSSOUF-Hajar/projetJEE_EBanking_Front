@@ -1,0 +1,18 @@
+ul li {
+  list-style: none;
+}
+span{
+  color: black;
+}
+mat-toolbar{
+  background-color: #ffa600;
+  
+}
+.mat-button{
+  color: white;
+  font-size: 22px;
+}
+button:hover{
+  color:black;
+  background-color: #ffd17b;
+}

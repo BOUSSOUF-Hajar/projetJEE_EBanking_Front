@@ -1,0 +1,34 @@
+.container {
+  padding: 2.5% 10%;
+  margin: 0 auto;
+}
+.blueButton {
+  border-radius: 10px;
+  background:#ffa600;
+  border-radius: 10x;
+  color: rgb(139, 85, 23);
+  margin-right: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.background {
+  background-image: url("../../../../assets/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-color: #f5f7fa;
+}
+.content {
+  background-color: white;
+}
+table {
+  width: 100%;
+}
+.soustraction {
+  color: red;
+}
+.addition {
+  color: green;
+}
